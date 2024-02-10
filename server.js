@@ -7,6 +7,8 @@ var port = process.env.PORT || 3000;
 
 let products = [];
 let orders = [];
+console.log(products);
+
 app.use(cors());
 
 app.use(bodyParser.urlencoded({ extended: false }));
